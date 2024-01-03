@@ -1,0 +1,21 @@
+<organization >
+
+    <a:department xmlns:a="https//www.aptech.com/a">
+        <name>Hasnain</name>
+        <age>17</age>
+     <salary>40000</salary>
+    </a:department>
+
+    <b:department xmlns:b="https//www.aptech.com/b">
+         <name>Bilal</name>
+        <age>18</age>
+         <salary>60000</salary>
+    </b:department>
+
+    <c:department xmlns:c="https//www.aptech.com/c">
+        <name>Israr</name>
+        <age>19</age>
+        <salary>80000</salary>
+    </c:department>
+
+</organization>

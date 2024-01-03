@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="class.xsl" type="text/xsl"?>
+
+<Bank>
+    <employee>
+       <id>101</id>
+       <name>Bilal</name>
+       <salary>20000</salary>
+    </employee>
+
+    <employee>
+        <id>102</id>
+        <name>Hasnain</name>
+        <salary>30000</salary>
+     </employee>
+
+     <employee>
+        <id>103</id>
+        <name>Imran</name>
+        <salary>40000</salary>
+     </employee>
+
+     <employeee>
+        <id>104</id>
+        <name>Israr</name>
+        <salary>50000</salary>
+     </employeee>
+</Bank>

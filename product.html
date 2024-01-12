@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <table class="table">
+                    <tr>
+                        <th>SELECT PRODUCT</th>
+                        <th>
+                            <select name="" class="form-control" id="select1" onchange="item1(this.value)">
+                                <option value="0">----SELECT ANYONE----</option>
+                            </select>
+                        </th>
+                        <th>
+                            <select name="" class="form-control" id="select2" onchange="item2(this.value)">
+                                <option value="0">----SELECT ANYONE----</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>PRODUCT IMAGE</th>
+                        <td>
+                            <img id="img1" src="./images/HuaweiNova9-b.jpg" alt="" class="img-fluid">
+                        </td>
+                        <td>
+                            <img id="img2" src=".//images/HuaweiNova9-b.jpg" alt="" class="img-fluid">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>PRODUCT PRICE</th>
+                        <td id="price1"></td>
+                        <td id="price2"></td>
+                    </tr>
+                    <tr>
+                        <th>PRODUCT BRAND</th>
+                        <td id="brand1"></td>
+                        <td id="brand2"></td>
+                    </tr>
+                    <tr>
+                        <th>PRODUCT DESCRIPTION</th>
+                        <td id="desc1"></td>
+                        <td id="desc2"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

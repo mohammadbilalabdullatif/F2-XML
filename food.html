@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: darkgray;
+        }
+        h3{
+            letter-spacing: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="text-center fw-bold bg-light text-dark display-3 p-3">FOOD SHOP!🍟</h3>
+    <div class="container col-lg-6 mt-5">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button id="add_Btn" class="btn btn-success mx-2" type="button" id="button-addon2">Add</button>
+          </div>
+          <ul id="parentList" class="list-group">
+            <li class="list-group-item d-flex justify-contant-between my-1">
+                <h2 class="flex-grow-1">CHICKEN TIKKA</h2>
+                <button class="btn btn-dark mx-2">Read</button>
+                <button class="btn btn-danger" onclick="removeFood(this)">Delete</button>
+            </li>
+          </ul>
+    </div>
+</body>
+    <script src="./food.js"></script>
+</html>
